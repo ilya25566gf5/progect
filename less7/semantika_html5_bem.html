@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/semantika_html5_bem.css">
+</head>
+<body>
+    <!-- Семантика HTML 5 -->
+    <header>
+
+    </header>
+    <main>
+             <!-- не по БЭМ -->
+            <!-- <section class="gallary">
+            <div class="gallary-title">
+
+            </div>
+            <div class="gallary-items">
+                <div class="gallary-item">
+
+                </div>
+            </div>
+            </section>  -->
+
+        <!-- По БЭМ --    
+            gallary__items   __ говорит о вложенности блоков
+            big-foto - класс сосотоит из 2-х слов
+            > -->
+        <section class="gallary">
+            <div class="container ">
+                 <div class="gallary__title">
+
+                </div>
+                <div class="gallary__items">
+                    <div class="gallary__item"> 
+                    <!-- <div class="gallary__items__item"> НЕ ВЕРНО  -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about__big-foto">
+
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
+
+<!-- Методология БЭМ (блок элемент модификатор) (разработчик Яндекс) -->
